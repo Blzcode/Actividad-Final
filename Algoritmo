@@ -1,0 +1,24 @@
+
+
+1. Establecer requisitos
+2. Establecer condición - > Clientes mayores de 18 años
+3. Establecer recargosd de acuerdo a las siguientes condiciones:
+    3.1 Edad - Aumentar recargo de manera proporcional a la edad de asegurado
+               18-24: 10%
+               25-49: 20%
+               50+  : 30%
+
+    3.2 Estado Civil  - Incrementa el recargo si es casado.
+                Si tiene conyuge se aplica recargo en función
+                de las edades individuales, es decir, se toma
+                el precio base y se agregar recargo primero por 
+                la edad de uno de los conyuges, luego se suma al total,
+                se extrae el recargo por la edad del segundo y se agrega
+                también al total.
+
+
+    3.3 Número de hijos -  A mayor número, mayor recargo.
+                Recargo por cada hijo: 20%
+
+4. El proyecto cotizará un presupuesto basado en la edad, estado civil y
+número de hijos del solicitante, devolverá un valor en función de estos parámetros.
