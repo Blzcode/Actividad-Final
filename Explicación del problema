@@ -1,0 +1,6 @@
+El siguiente problema plantea una situacíon en la que se deben considerar
+los factores de riesgo de cada uno de los clientes al momento de cotizar
+la póliza. 
+
+El programa debe entonces, tomar la edad, estado civil y número de hijos
+del solicitante y agregar un recargo en base a esta informacíon.
